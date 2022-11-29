@@ -1,3 +1,13 @@
+/*
+* File: app.component.spec.ts
+* Author: Sangare F. Felisha
+* Copyright: 2022, Sangare F. Felisha
+* Group: SZOFT II N
+* Date: 2022-11-29
+* Github: https://github.com/fe-ktch/
+* Licenc: GNU GPL
+*/
+
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
