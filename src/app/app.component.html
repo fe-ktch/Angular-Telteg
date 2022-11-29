@@ -9,3 +9,40 @@
 * Licenc: GNU GPL
 */
 -->
+
+<div class="container">
+    <div class="card" style="width: 25rem">
+      <img class="card-img-top" src="assets/images/grass.jpg" alt="Card image cap">
+      <h2 class="card-header">Feladat 0354</h2>
+      <div class="card-body">
+        <h5 class="card-subtitle mb-2 text-muted"></h5>
+        <h5 class="card-subtitle mb-2 text-muted">Gyepesítés</h5>
+        <h5 class="card-subtitle mb-2 text-muted">Gyepesítés</h5>
+        <div class="gyepForm">
+          <div class="input-group mb-3">
+            <label for="" class="form-label"></label>
+            <input type="text" class="form-control" placeholder="A Oldal"
+            aria-label="Adjon meg értéket" aria-describedby="basic-addon2" [(ngModel)]="aOldal">
+            <label for="" class="form-label"></label>
+            <input type="text" class="form-control" placeholder="B Oldal"
+            aria-label="Adjon meg értéket" aria-describedby="basic-addon2" [(ngModel)]="bOldal">
+          <div class="input-group-append">
+          <button class="btn btn-outline-success" type="button"
+          (click)="calcArea()">Számít</button>
+          </div>
+          </div>
+          <div class="input-group mb-3">
+            <label for="result"></label>
+            <input type="text" class="form-control" placeholder="Eredmény"
+            [(ngModel)]="area" aria-describedby="basic-addon2">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon2">m²</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer text-muted">
+        Sangare F. Felisha SZOFT II N 2022-11-09
+      </div>
+    </div>
+  </div>
