@@ -16,5 +16,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Angular-Telteg';
+  title = 'Telteg';
+  aOldal !: number;
+  bOldal !: number;
+  area !: number;
+
+  calcArea():void {
+    let aOldal = this.aOldal;
+    let bOldal = this.bOldal;
+    this.area = 2 * (aOldal * bOldal);
+  }
 }
