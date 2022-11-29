@@ -1,1 +1,22 @@
 @import "~bootstrap";
+
+.card {
+    margin: auto; 
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    float: none; 
+    background-color: rgb(250, 250, 250);
+}
+.card-header {
+    padding: 1rem;
+}
+.card-body {
+    padding: 2rem;
+}
+.card-footer {
+    padding: 2rem;
+    padding-left: 3rem;
+}
+.card-subtitle {
+    padding-bottom: 1rem;
+}
